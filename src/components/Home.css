@@ -1,0 +1,19 @@
+#allFurniture{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.furniture{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin:30px;
+    width:20%;
+}
+
+.furniture img{
+    width: 70%;
+}
