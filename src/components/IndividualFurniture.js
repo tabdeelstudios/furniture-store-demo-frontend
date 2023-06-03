@@ -3,7 +3,7 @@ const IndividualFurniture = (props) => {
     <div className="furniture">
       <img src={props.imgSrc} />
       <h2>{props.name}</h2>
-      <h3>${props.price}</h3>
+      <h3>-{props.price}</h3>
     </div>
   );
 };
