@@ -10,7 +10,7 @@ const Home = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    axios.get("https://course-api.com/react-store-products").then((res) => {
+    axios.get("http://localhost:3001/").then((res) => {
       dispatch(fetchFurniture(res.data));
     });
   }, []);
