@@ -10,7 +10,7 @@ const Home = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    axios.get("https://dancing-valkyrie-9840fb.netlify.app/").then((res) => {
+    axios.get("https://course-api.com/react-store-products").then((res) => {
       dispatch(fetchFurniture(res.data));
     });
   }, []);
